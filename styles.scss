@@ -39,3 +39,39 @@ body{
         line-height: 120%;
     }
 }
+
+.about-me{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-areas: 
+    "heading heading heading heading"
+    "image image image image"
+    "p p p p";
+    .about-me__heading{
+        grid-area: heading;
+        width: 151px;
+        height: 39px;
+        left: 139px;
+        top: 714px;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 39px;
+    }
+    .about-me__image{
+        grid-area: image;
+        width: 299.9px;
+        height: 412.36px;
+        left: 64px;
+        top: 800px;
+    }
+    .about-me__description{
+        grid-area:p;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 180%;
+    }
+}
+
