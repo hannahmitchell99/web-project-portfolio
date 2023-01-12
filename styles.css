@@ -52,6 +52,7 @@ body {
   justify-items: center;
   grid-gap: 1.5rem;
   grid-template-areas: "heading heading heading heading" "image image image image" "p p p p";
+  width: 28rem;
 }
 .about-me__heading {
   grid-area: heading;
@@ -80,6 +81,7 @@ body {
 }
 
 .technical-skills {
+  width: 28rem;
   margin-top: 3rem;
   margin-bottom: 1.25rem;
   display: grid;
@@ -89,8 +91,7 @@ body {
 }
 .technical-skills__heading {
   grid-area: heading;
-  width: 9.45rem;
-  height: 5rem;
+  height: 3.5rem;
   font-weight: 600;
   font-size: 1.75rem;
   line-height: 39px;
@@ -98,12 +99,11 @@ body {
 }
 .technical-skills__description {
   grid-area: p;
-  width: 20.75rem;
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
   line-height: 160%;
-  text-align: justify;
+  text-align: center;
 }
 
 .skills-container {
@@ -113,6 +113,7 @@ body {
   grid-gap: 3rem;
   align-items: center;
   object-fit: scale-down;
+  width: 28rem;
 }
 .skills-container figure {
   justify-self: center;
@@ -122,6 +123,7 @@ body {
 }
 
 .project-intro {
+  width: 28rem;
   margin-top: 3rem;
   margin-bottom: 1.25rem;
   display: grid;
@@ -131,8 +133,7 @@ body {
 }
 .project-intro__heading {
   grid-area: heading;
-  width: 9.45rem;
-  height: 5rem;
+  height: 3.5rem;
   font-weight: 600;
   font-size: 1.75rem;
   line-height: 39px;
@@ -140,7 +141,6 @@ body {
 }
 .project-intro__description {
   grid-area: p;
-  width: 20.75rem;
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
@@ -149,15 +149,24 @@ body {
 }
 
 .project-card {
+  border: 2px solid black;
+  width: 22rem;
+  height: 34rem;
   margin-top: 3rem;
   margin-bottom: 1.25rem;
+  margin-left: 3rem;
   display: grid;
-  grid-gap: 1.2rem;
-  grid-template-areas: "image image image image" "type type type type" "client client client client" "d d d d" "button1 button1 button2 button2";
+  grid-gap: 0.5rem;
+  align-items: center;
+  grid-template-areas: "image image image image" "type type type type" "client client client client" "d d d d " "button1 button1 button2 button2";
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.project-card__placeholder {
+.project-card figure {
   grid-area: image;
-  object-fit: scale-down;
+  width: 17rem;
+  background-size: contain;
+  overflow: hidden;
+  justify-self: center;
 }
 .project-card__project-type-heading {
   grid-area: type;
@@ -171,15 +180,24 @@ body {
   grid-area: d;
 }
 .project-card__button--code {
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Inter";
+  width: 7rem;
+  height: 3rem;
   grid-area: button1;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 7px;
 }
 .project-card__button--preview {
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Inter";
+  width: 7rem;
+  height: 3rem;
   grid-area: button2;
-}d-area: d;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 7px;
 }
-.project-card__button--code {
-  grid-area: button1;
-}
-.project-card__button--preview {
-  grid-area: button2;
-}/*# sourceMappingURL=styles.css.map */
