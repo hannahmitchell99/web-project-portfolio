@@ -41,7 +41,8 @@ body {
   line-height: 120%;
 }
 .large-heading__text:hover {
-  text-decoration: underline 0.3rem black;
+  -webkit-text-decoration: underline 0.3rem black;
+          text-decoration: underline 0.3rem black;
 }
 
 .about-me {
@@ -80,7 +81,7 @@ body {
 }
 
 .technical-skills {
-  margin-top: 1.25rem;
+  margin-top: 3rem;
   margin-bottom: 1.25rem;
   display: grid;
   justify-items: center;
@@ -99,9 +100,6 @@ body {
 .technical-skills__description {
   grid-area: p;
   width: 20.75rem;
-  height: 12.75rem;
-  left: 3rem;
-  top: 62.5rem;
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
@@ -115,16 +113,39 @@ body {
   grid-template-rows: 0.6fr 0.6fr 0.6fr;
   grid-gap: 3rem;
   align-items: center;
-  object-fit: scale-down;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
 }
 .skills-container figure {
   justify-self: center;
 }
 .skills-container figcaption {
   text-align: center;
-}r figure {
-  justify-self: center;
 }
-.skills-container figcaption {
+
+.project-intro {
+  margin-top: 3rem;
+  margin-bottom: 1.25rem;
+  display: grid;
+  justify-items: center;
+  grid-template-areas: "heading heading heading heading" "p p p p";
+  grid-gap: 1.5rem;
+}
+.project-intro__heading {
+  grid-area: heading;
+  width: 9.45rem;
+  height: 5rem;
+  font-weight: 600;
+  font-size: 1.75rem;
+  line-height: 39px;
+  text-align: center;
+}
+.project-intro__description {
+  grid-area: p;
+  width: 20.75rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
   text-align: center;
 }/*# sourceMappingURL=styles.css.map */

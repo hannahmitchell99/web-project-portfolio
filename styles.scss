@@ -85,7 +85,7 @@ body {
 }
 
 .technical-skills {
-  margin-top: 1.25rem;
+  margin-top: 3rem;
   margin-bottom: 1.25rem;
   display: grid;
   justify-items: center;
@@ -108,9 +108,6 @@ body {
   &__description {
     grid-area: p;
     width: 20.75rem;
-    height: 12.75rem;
-    left: 3rem;
-    top: 62.5rem;
     font-style: normal;
     font-weight: 400;
     font-size: 1rem;
@@ -129,6 +126,36 @@ body {
     justify-self: center;
   }
   figcaption {
+    text-align: center;
+  }
+}
+
+.project-intro{
+  margin-top: 3rem;
+  margin-bottom: 1.25rem;
+  display: grid;
+  justify-items: center;
+  grid-template-areas:
+    "heading heading heading heading"
+    "p p p p";
+  grid-gap:1.5rem;
+
+  &__heading{
+    grid-area: heading;
+    width: 9.45rem;
+    height: 5rem;
+    font-weight: 600;
+    font-size: 1.75rem;
+    line-height: 39px;
+    text-align: center;
+  }
+  &__description{
+    grid-area: p;
+    width: 20.75rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 160%;
     text-align: center;
   }
 }
