@@ -7,12 +7,10 @@
 body{
     margin-top:133.84px;
     margin-left: 51px;
-    margin-right: 51px;
     margin-bottom: 0;
-    font-family: 'Inter', sans-serif;;
+    font-family: 'Inter', sans-serif;
 }
 .header{
-    margin-top: 20px;
     width: 100%;
     height: 15%;
     left: 51px;
@@ -74,4 +72,51 @@ body{
         line-height: 180%;
     }
 }
+.technical-skills{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-areas: 
+    "heading heading heading heading"
+    "p p p p";
+    .technical-skills__heading{
+        grid-area:heading;
+        width: 326px;
+        height: 150px;
+        left: 51px;
+        top: 2064px;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 39px;
+    }
+    .technical-skills__description{
+        grid-area: p;
+        width: 332px;
+        height: 204px;
+        left: 48px;
+        top: 1000px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+    }
+    
+}
+.skills-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.6fr 0.6fr 0.6fr;
+    grid-gap: 3rem;
+    align-items:center;
+    object-fit: scale-down;
+    figure{
+        justify-self: center;
 
+    }
+    figcaption{
+        text-align: center;
+    }
+}
+.project-card{
+    
+}
