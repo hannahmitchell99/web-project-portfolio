@@ -26,20 +26,20 @@ body {
 .large-heading {
   display: flex;
   align-items: center;
-  width: 326px;
-  height: 464.16px;
-  left: 51px;
+  width: 20.3rem;
+  height: 29rem;
+  left: 3.1rem;
   top: 133.84px;
 
   &__text {
     font-family: "Inter";
     font-style: normal;
     font-weight: 600;
-    font-size: 64px;
+    font-size: 4rem;
     line-height: 120%;
   }
   &__text:hover{
-    text-decoration: underline 2px black;
+    text-decoration: underline 0.3rem black;
   }
 }
 
@@ -49,6 +49,7 @@ body {
   display: grid;
   align-items: center;
   justify-items: center;
+  grid-gap:1.5rem;
   grid-template-areas:
     "heading heading heading heading"
     "image image image image"
@@ -56,60 +57,65 @@ body {
 
   &__heading {
     grid-area: heading;
-    width: 151px;
-    height: 39px;
-    left: 139px;
-    top: 714px;
+    width: 9.45rem;
+    height: 2.5rem;
+    left: 8.6rem;
+    top: 44.62rem;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 1.75rem;
     line-height: 39px;
+    text-align: center;
   }
 
   &__image {
     grid-area: image;
-    width: 299.9px;
-    height: 412.36px;
-    left: 64px;
-    top: 800px;
+    width: 18.7rem;
+    height: 25.7rem;
+    left: 6rem;
+    top: 50rem;
   }
 
   &__description {
     grid-area: p;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.12rem;
     line-height: 180%;
+    text-align: justify;
   }
 }
 
 .technical-skills {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
   display: grid;
-  align-items: center;
   justify-items: center;
   grid-template-areas:
     "heading heading heading heading"
     "p p p p";
+  grid-gap:1.5rem;
 
   &__heading {
     grid-area: heading;
-    width: 326px;
-    height: 150px;
-    left: 51px;
-    top: 2064px;
+    width: 9.45rem;
+    height: 5rem;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 1.75rem;
     line-height: 39px;
+    text-align: center;
+    
   }
 
-  &&__description {
+  &__description {
     grid-area: p;
-    width: 332px;
-    height: 204px;
-    left: 48px;
-    top: 1000px;
+    width: 20.75rem;
+    height: 12.75rem;
+    left: 3rem;
+    top: 62.5rem;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 160%;
+    text-align: justify;
   }
 }
 .skills-container {
