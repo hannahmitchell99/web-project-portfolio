@@ -43,7 +43,7 @@ nav {
   line-height: 120%;
 }
 .large-heading__text:hover {
-  text-decoration: underline 0.3rem black;
+  text-decoration: underline 0.3rem #e3f6f5;
 }
 .large-heading__image {
   display: none;
@@ -308,15 +308,19 @@ nav {
 
   .project-container {
     width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
   }
 
   .project-container .project-card {
-    width: 30%;
+    width: 75%;
   }
-}t-container {
-    width: 100%;
+}rid-template-rows: 1fr 1fr;
+    justify-items: center;
   }
   .project-container .project-card {
-    width: 30%;
+    width: 75%;
   }
 }/*# sourceMappingURL=styles.css.map */

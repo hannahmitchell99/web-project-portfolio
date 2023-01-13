@@ -42,7 +42,7 @@ nav{
   }
 
   &__text:hover{
-    text-decoration: underline 0.3rem black;
+    text-decoration: underline 0.3rem rgb(227,246,245);
   }
 
   &__image{
@@ -329,13 +329,15 @@ nav{
     width: 50%;
   }
   .project-container{
-    width: 100%
+    width: 100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
     
   }
   .project-container .project-card{
-    width:30%;
-    
+    width: 75%;
   }
-
 
 }
