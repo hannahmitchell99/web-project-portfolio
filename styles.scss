@@ -19,8 +19,6 @@ nav{
 .header {
   width: 90%;
   height: 15%;
-  left: 3.1rem;
-  top: 5rem;
 
   &__intro {
     color: black;
@@ -125,7 +123,15 @@ nav{
   align-items: center;
   object-fit: scale-down;
   figure {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
     justify-self: center;
+    justify-content: space-around;
+    height: 7rem;
+  }
+  figure img{
+    width:3.5rem;
   }
   figcaption {
     text-align: center;
@@ -168,6 +174,7 @@ nav{
 .project-card{
   border: #000000 2px solid;
   width:100%;
+  padding: 1rem;
   margin-top: 3rem;
   margin-bottom: 1.25rem;
   display:grid;
@@ -181,16 +188,13 @@ nav{
   "button1 button1 button2 button2";
   grid-template-columns: 1fr 1fr 1fr 1fr;
   figure{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
     grid-area: image;
     background-size: contain;
     overflow: hidden;
     justify-self: center;
   }
   figure img{
-    width:90%;
+    width:100%;
   }
   &__project-type-heading{
     width:90%;
@@ -260,7 +264,7 @@ nav{
   }
 }
 
-@media screen and (min-width:1200px){
+@media screen and (min-width:1000px){
 
   body{
     margin: 2rem;
@@ -280,17 +284,58 @@ nav{
     }
   }
 
+  .header{
+    width:100%;
+  }
+
   .large-heading{
     display: flex;
     width: 100%;
     justify-content: space-between;
     &__text{
       flex-direction: column;
+      align-self:center;
     }
     
     &__image{
+      display: block;
       width: 50%;
       border: #000000;
     }
   }
+  .about-me{
+    width:100%;
+    display: grid;
+    grid-template-areas: 
+    "image heading heading"
+    "image p p";
+  &__heading{
+    display: flex;
+    align-items: flex-start;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  } 
+  }
+  .technical-skills{
+    width: 50%;
+  }
+  .skills-container{
+    scale: 75%;
+    width:100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .project-intro{
+    width: 50%;
+  }
+  .project-container{
+    width: 100%
+    
+  }
+  .project-container .project-card{
+    width:30%;
+    
+  }
+
+
 }
