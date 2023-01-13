@@ -1,6 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-* {
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Poppins&display=swap');
+
+$font-headings: 'Poppins', sans-serif;
+$font-paragraphs: 'Manrope', sans-serif;
+$light-blue: rgb(227,246,245);
+$blue-background:#BAE8E8;;
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,7 +15,7 @@ body {
   display:flex;
   flex-direction: column;
   align-items: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: $font-headings;
 }
 nav{
   display:none;
@@ -42,7 +46,7 @@ nav{
   }
 
   &__text:hover{
-    text-decoration: underline 0.3rem rgb(227,246,245);
+    text-decoration: underline 0.3rem $light-blue;
   }
 
   &__image{
@@ -73,10 +77,12 @@ nav{
 
   &__image {
     grid-area: image;
+    border-radius: 2px;
     width: 18.7rem;
   }
 
   &__description {
+    font-family: $font-paragraphs;
     grid-area: p;
     font-weight: 400;
     font-size: 1.12rem;
@@ -106,6 +112,7 @@ nav{
   }
 
   &__description {
+    font-family: $font-paragraphs;
     grid-area: p;
     font-style: normal;
     font-weight: 400;
@@ -157,6 +164,7 @@ nav{
     text-align: center;
   }
   &__description{
+    font-family: $font-paragraphs;
     grid-area: p;
     font-style: normal;
     font-weight: 400;
@@ -172,7 +180,6 @@ nav{
   align-items:center;
 }
 .project-card{
-  border: #000000 2px solid;
   width:100%;
   padding: 1rem;
   margin-top: 3rem;
@@ -208,6 +215,7 @@ nav{
 
   }
   &__description{
+    font-family: $font-paragraphs;
     width: 90%;
 
     grid-area: d;
@@ -242,7 +250,7 @@ nav{
   margin:0;
   width:100%;
   height:10rem;
-  background-color: #000000;
+  background-color: $blue-background;
   color: #FFFFFF;
   text-align: center;
 
@@ -250,11 +258,11 @@ nav{
     font-family: 'Poppins', sans-serif;
     margin:1rem;
     width:7rem;
-    height:2rem;
+    height:3rem;
     font-size: 1rem;
-    font-weight: 600;
     background-color: #FFFFFF;
     color: #000000;
+    border:1px solid black;
     border-radius: 7px;
   }
 
@@ -271,21 +279,37 @@ nav{
   }
 
   .nav-bar{
-    display:block;
-    height: 3rem;
-    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    height: 3.5rem;
+    width: 105.2%;
 
     &__list{
+      display: flex;
+      justify-content: space-around;
       list-style-type: none;
+      font-size: 1.2rem;
+      background-color: $blue-background;
     }
 
     li{
       display:inline;
     }
+    a, a:visited, a:active{
+      text-decoration: none;
+      color: #000000;
+    }
   }
 
   .header{
     width:100%;
+    &__intro{
+      margin-top:2rem;
+      margin-bottom: 0;
+      width:100%;
+    }
   }
 
   .large-heading{
@@ -293,6 +317,7 @@ nav{
     width: 100%;
     justify-content: space-between;
     &__text{
+      display: flex;
       flex-direction: column;
       align-self:center;
     }
