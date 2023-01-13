@@ -3,7 +3,9 @@
 $font-headings: 'Poppins', sans-serif;
 $font-paragraphs: 'Manrope', sans-serif;
 $light-blue: rgb(227,246,245);
-$blue-background:#BAE8E8;;
+$blue-background:#BAE8E8;
+$white:#FDFDFD;
+$dark-navy:#07072b;
 *{
   margin: 0;
   padding: 0;
@@ -16,6 +18,8 @@ body {
   flex-direction: column;
   align-items: center;
   font-family: $font-headings;
+  color: $dark-navy;
+  background-color: $white;
 }
 nav{
   display:none;
@@ -227,7 +231,7 @@ nav{
     width:7rem;
     height:3rem;
     grid-area: button1;
-    background: #FFFFFF;
+    background: $white;
     border: 1px solid #000000;
     border-radius: 7px;
   }
@@ -251,17 +255,17 @@ nav{
   width:100%;
   height:10rem;
   background-color: $blue-background;
-  color: #FFFFFF;
+  color: $white;
   text-align: center;
 
   &__button{
     font-family: 'Poppins', sans-serif;
     margin:1rem;
     width:7rem;
-    height:3rem;
+    height:2rem;
     font-size: 1rem;
-    background-color: #FFFFFF;
-    color: #000000;
+    background-color: $white;
+    color: $dark-navy;
     border:1px solid black;
     border-radius: 7px;
   }
@@ -282,7 +286,6 @@ nav{
     display:flex;
     flex-direction: column;
     justify-content: center;
-  
     height: 3.5rem;
     width: 105.2%;
 
@@ -301,13 +304,13 @@ nav{
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      border: 1px solid #000000;
+      border: 1px solid $dark-navy;
       border-radius: 7px;
       width:7rem;
-      height:1.5rem;
+      height:2rem;
       font-size: 1rem;
-      background-color: #FFFFFF;
-      color: #000000;
+      background-color: $white;
+      color: $dark-navy;
       font-family: $font-headings;
     }
 
@@ -316,7 +319,7 @@ nav{
     }
     a, a:visited, a:active{
       text-decoration: none;
-      color: #000000;
+      color: $dark-navy;;
     }
   }
 
