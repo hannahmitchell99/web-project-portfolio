@@ -8,9 +8,10 @@
 
 body {
   margin-top: 4rem;
-  margin-left: 3rem;
-  margin-right: 3rem;
   margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-family: "Poppins", sans-serif;
 }
 
@@ -19,7 +20,7 @@ nav {
 }
 
 .header {
-  width: 100%;
+  width: 90%;
   height: 15%;
   left: 3.1rem;
   top: 5rem;
@@ -32,17 +33,15 @@ nav {
 }
 
 .large-heading {
+  width: 90%;
   display: flex;
   align-items: center;
-  width: 20.3rem;
   height: 29rem;
-  left: 3.1rem;
-  top: 133.84px;
 }
 .large-heading__text {
   font-style: normal;
   font-weight: 600;
-  font-size: 4rem;
+  font-size: 3.5rem;
   line-height: 120%;
 }
 .large-heading__text:hover {
@@ -53,6 +52,7 @@ nav {
 }
 
 .about-me {
+  width: 90%;
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
   display: grid;
@@ -60,14 +60,9 @@ nav {
   justify-items: center;
   grid-gap: 1.5rem;
   grid-template-areas: "heading heading heading heading" "image image image image" "p p p p";
-  width: 28rem;
 }
 .about-me__heading {
   grid-area: heading;
-  width: 9.45rem;
-  height: 2.5rem;
-  left: 8.6rem;
-  top: 44.62rem;
   font-weight: 600;
   font-size: 1.75rem;
   line-height: 39px;
@@ -76,9 +71,6 @@ nav {
 .about-me__image {
   grid-area: image;
   width: 18.7rem;
-  height: 25.7rem;
-  left: 6rem;
-  top: 50rem;
 }
 .about-me__description {
   grid-area: p;
@@ -89,7 +81,7 @@ nav {
 }
 
 .technical-skills {
-  width: 28rem;
+  width: 90%;
   margin-top: 3rem;
   margin-bottom: 1.25rem;
   display: grid;
@@ -99,7 +91,6 @@ nav {
 }
 .technical-skills__heading {
   grid-area: heading;
-  height: 3.5rem;
   font-weight: 600;
   font-size: 1.75rem;
   line-height: 39px;
@@ -115,13 +106,13 @@ nav {
 }
 
 .skills-container {
+  width: 90%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 0.6fr 0.6fr 0.6fr;
   grid-gap: 3rem;
   align-items: center;
   object-fit: scale-down;
-  width: 28rem;
 }
 .skills-container figure {
   justify-self: center;
@@ -131,7 +122,7 @@ nav {
 }
 
 .project-intro {
-  width: 28rem;
+  width: 90%;
   margin-top: 3rem;
   margin-bottom: 1.25rem;
   display: grid;
@@ -141,7 +132,6 @@ nav {
 }
 .project-intro__heading {
   grid-area: heading;
-  height: 3.5rem;
   font-weight: 600;
   font-size: 1.75rem;
   line-height: 39px;
@@ -156,13 +146,18 @@ nav {
   text-align: center;
 }
 
+.project-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .project-card {
   border: #000000 2px solid;
-  width: 22rem;
-  height: 34rem;
+  width: 100%;
   margin-top: 3rem;
   margin-bottom: 1.25rem;
-  margin-left: 3rem;
   display: grid;
   grid-gap: 0.5rem;
   align-items: center;
@@ -170,21 +165,29 @@ nav {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .project-card figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   grid-area: image;
-  width: 17rem;
   background-size: contain;
   overflow: hidden;
   justify-self: center;
 }
+.project-card figure img {
+  width: 90%;
+}
 .project-card__project-type-heading {
+  width: 90%;
   grid-area: type;
   font-size: 1.25rem;
   text-align: start;
 }
 .project-card__client-project-heading {
+  width: 90%;
   grid-area: client;
 }
 .project-card__description {
+  width: 90%;
   grid-area: d;
 }
 .project-card__button--code {
@@ -214,7 +217,7 @@ nav {
   font-family: "Poppins", sans-serif;
   display: block;
   margin: 0;
-  width: 30rem;
+  width: 100%;
   height: 10rem;
   background-color: #000000;
   color: #FFFFFF;
@@ -233,7 +236,7 @@ nav {
 }
 .footer__email {
   margin: 1rem;
-  font-size: 1.3rem;
+  font-size: 0.7rem;
 }
 
 @media screen and (min-width: 1200px) {
@@ -265,10 +268,4 @@ nav {
     width: 50%;
     border: #000000;
   }
-}    flex-direction: column;
-  }
-  .large-heading__image {
-    width: 50%;
-    border: #000000;
-  }
-}/*# sourceMappingURL=styles.css.map */
+}
