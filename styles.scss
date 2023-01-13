@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -7,8 +8,12 @@
 body {
   margin-top: 4rem;
   margin-left: 3rem;
+  margin-right: 3rem;
   margin-bottom: 0;
-  font-family: "Inter", sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+nav{
+  display:none;
 }
 .header {
   width: 100%;
@@ -32,7 +37,7 @@ body {
   top: 133.84px;
 
   &__text {
-    font-family: "Inter";
+
     font-style: normal;
     font-weight: 600;
     font-size: 4rem;
@@ -160,7 +165,7 @@ body {
   }
 }
 .project-card{
-  border: 2px solid black;
+  border: #000000 2px solid;
   width:22rem;
   height: 34rem;
   margin-top: 3rem;
@@ -198,7 +203,7 @@ body {
   &__button--code{
     font-size: 1rem;
     font-weight: 600;
-    font-family: "Inter";
+    font-family: 'Poppins', sans-serif;
     width:7rem;
     height:3rem;
     grid-area: button1;
@@ -209,13 +214,56 @@ body {
   &__button--preview{
     font-size: 1rem;
     font-weight: 600;
-    font-family: "Inter";
+    font-family: 'Poppins', sans-serif;
     width:7rem;
     height:3rem;
     grid-area: button2;
-    background: #FFFFFF;
+    background: rgb(199, 230, 241);
     border: 1px solid #000000;
     border-radius: 7px;
   }
 }
 
+.footer{
+  font-family:'Poppins', sans-serif;
+  display:block;
+  margin:0;
+  width:30rem;
+  height:10rem;
+  background-color: #000000;
+  color: #FFFFFF;
+  text-align: center;
+
+  &__button{
+    font-family: 'Poppins', sans-serif;
+    margin:1rem;
+    width:7rem;
+    height:3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 7px;
+  }
+
+  &__email{
+    margin:1rem;
+    font-size:1.3rem;
+  }
+}
+
+@media screen and (min-width:1200px){
+
+  .nav-bar{
+    display:block;
+    height: 3rem;
+    width: 100%;
+    &__list{
+      list-style-type: none;
+    }
+    li{
+      display:inline;
+    }
+    
+  }
+}
