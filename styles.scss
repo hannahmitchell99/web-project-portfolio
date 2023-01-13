@@ -287,11 +287,28 @@ nav{
     width: 105.2%;
 
     &__list{
+      height:100%;
       display: flex;
       justify-content: space-around;
+      align-items: center;
       list-style-type: none;
-      font-size: 1.2rem;
+      font-size: 1rem;
+      font-weight: 600;
       background-color: $blue-background;
+    }
+    button{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #000000;
+      border-radius: 7px;
+      width:7rem;
+      height:1.5rem;
+      font-size: 1rem;
+      background-color: #FFFFFF;
+      color: #000000;
+      font-family: $font-headings;
     }
 
     li{
