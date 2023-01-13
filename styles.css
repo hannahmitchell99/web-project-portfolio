@@ -43,7 +43,8 @@ nav {
   line-height: 120%;
 }
 .large-heading__text:hover {
-  text-decoration: underline 0.3rem #e3f6f5;
+  -webkit-text-decoration: underline 0.3rem rgb(227, 246, 245);
+          text-decoration: underline 0.3rem rgb(227, 246, 245);
 }
 .large-heading__image {
   display: none;
@@ -110,7 +111,8 @@ nav {
   grid-template-rows: 0.6fr 0.6fr 0.6fr;
   grid-gap: 3rem;
   align-items: center;
-  object-fit: scale-down;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
 }
 .skills-container figure {
   display: flex;
@@ -212,7 +214,7 @@ nav {
   width: 7rem;
   height: 3rem;
   grid-area: button2;
-  background: #c7e6f1;
+  background: rgb(199, 230, 241);
   border: 1px solid #000000;
   border-radius: 7px;
 }
@@ -231,7 +233,7 @@ nav {
   font-family: "Poppins", sans-serif;
   margin: 1rem;
   width: 7rem;
-  height: 3rem;
+  height: 2rem;
   font-size: 1rem;
   font-weight: 600;
   background-color: #FFFFFF;
@@ -247,7 +249,6 @@ nav {
   body {
     margin: 2rem;
   }
-
   .nav-bar {
     display: block;
     height: 3rem;
@@ -259,11 +260,9 @@ nav {
   .nav-bar li {
     display: inline;
   }
-
   .header {
     width: 100%;
   }
-
   .large-heading {
     display: flex;
     width: 100%;
@@ -278,7 +277,6 @@ nav {
     width: 50%;
     border: #000000;
   }
-
   .about-me {
     width: 100%;
     display: grid;
@@ -290,22 +288,18 @@ nav {
     grid-column-start: 2;
     grid-column-end: 3;
   }
-
   .technical-skills {
     width: 50%;
   }
-
   .skills-container {
     scale: 75%;
     width: 100%;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
   }
-
   .project-intro {
     width: 50%;
   }
-
   .project-container {
     width: 100%;
     display: grid;
@@ -313,14 +307,14 @@ nav {
     grid-template-rows: 1fr 1fr;
     justify-items: center;
   }
-
   .project-container .project-card {
     width: 75%;
   }
-}rid-template-rows: 1fr 1fr;
-    justify-items: center;
-  }
-  .project-container .project-card {
-    width: 75%;
+  .footer {
+    width: 105.2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
   }
 }/*# sourceMappingURL=styles.css.map */
