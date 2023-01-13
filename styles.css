@@ -46,8 +46,10 @@ nav {
   line-height: 120%;
 }
 .large-heading__text:hover {
-  -webkit-text-decoration: underline 0.3rem black;
-          text-decoration: underline 0.3rem black;
+  text-decoration: underline 0.3rem black;
+}
+.large-heading__image {
+  display: none;
 }
 
 .about-me {
@@ -118,8 +120,7 @@ nav {
   grid-template-rows: 0.6fr 0.6fr 0.6fr;
   grid-gap: 3rem;
   align-items: center;
-  -o-object-fit: scale-down;
-     object-fit: scale-down;
+  object-fit: scale-down;
   width: 28rem;
 }
 .skills-container figure {
@@ -204,7 +205,7 @@ nav {
   width: 7rem;
   height: 3rem;
   grid-area: button2;
-  background: rgb(199, 230, 241);
+  background: #c7e6f1;
   border: 1px solid #000000;
   border-radius: 7px;
 }
@@ -236,6 +237,10 @@ nav {
 }
 
 @media screen and (min-width: 1200px) {
+  body {
+    margin: 2rem;
+  }
+
   .nav-bar {
     display: block;
     height: 3rem;
@@ -246,5 +251,24 @@ nav {
   }
   .nav-bar li {
     display: inline;
+  }
+
+  .large-heading {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .large-heading__text {
+    flex-direction: column;
+  }
+  .large-heading__image {
+    width: 50%;
+    border: #000000;
+  }
+}    flex-direction: column;
+  }
+  .large-heading__image {
+    width: 50%;
+    border: #000000;
   }
 }/*# sourceMappingURL=styles.css.map */

@@ -43,8 +43,13 @@ nav{
     font-size: 4rem;
     line-height: 120%;
   }
+
   &__text:hover{
     text-decoration: underline 0.3rem black;
+  }
+
+  &__image{
+    display:none;
   }
 }
 
@@ -254,16 +259,35 @@ nav{
 
 @media screen and (min-width:1200px){
 
+  body{
+    margin: 2rem;
+  }
+
   .nav-bar{
     display:block;
     height: 3rem;
     width: 100%;
+
     &__list{
       list-style-type: none;
     }
+
     li{
       display:inline;
     }
+  }
+
+  .large-heading{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    &__text{
+      flex-direction: column;
+    }
     
+    &__image{
+      width: 50%;
+      border: #000000;
+    }
   }
 }
