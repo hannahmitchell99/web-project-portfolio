@@ -12,7 +12,7 @@ body {
   flex-direction: column;
   align-items: center;
   font-family: "Poppins", sans-serif;
-  color: #07072b;
+  color: #272643;
   background-color: #FDFDFD;
 }
 
@@ -25,7 +25,7 @@ nav {
   height: 15%;
 }
 .header__intro {
-  color: black;
+  color: #272643;
   font-weight: 600;
   font-size: 1.5rem;
   line-height: 1.6rem;
@@ -44,8 +44,8 @@ nav {
   line-height: 120%;
 }
 .large-heading__text:hover {
-  -webkit-text-decoration: underline 0.3rem rgb(227, 246, 245);
-          text-decoration: underline 0.3rem rgb(227, 246, 245);
+  -webkit-text-decoration: underline 0.3rem #BAE8E8;
+          text-decoration: underline 0.3rem #BAE8E8;
 }
 .large-heading__image {
   display: none;
@@ -70,7 +70,7 @@ nav {
 }
 .about-me__image {
   grid-area: image;
-  border-radius: 2px;
+  border-radius: 3px;
   width: 18.7rem;
 }
 .about-me__description {
@@ -209,7 +209,7 @@ nav {
   height: 3rem;
   grid-area: button1;
   background: #FDFDFD;
-  border: 1px solid #000000;
+  border: 1px solid #272643;
   border-radius: 7px;
 }
 .project-card__button--preview {
@@ -220,7 +220,7 @@ nav {
   height: 3rem;
   grid-area: button2;
   background: rgb(199, 230, 241);
-  border: 1px solid #000000;
+  border: 1px solid #272643;
   border-radius: 7px;
 }
 
@@ -230,7 +230,7 @@ nav {
   margin: 0;
   width: 100%;
   height: 10rem;
-  background-color: #BAE8E8;
+  background-color: #272643;
   color: #FDFDFD;
   text-align: center;
 }
@@ -240,9 +240,9 @@ nav {
   width: 7rem;
   height: 2rem;
   font-size: 1rem;
-  background-color: #FDFDFD;
-  color: #07072b;
-  border: 1px solid black;
+  background-color: #BAE8E8;
+  color: #272643;
+  border: 1px solid #FDFDFD;
   border-radius: 7px;
 }
 .footer__email {
@@ -265,24 +265,26 @@ nav {
     height: 100%;
     display: flex;
     justify-content: space-around;
-    align-items: center;
     list-style-type: none;
-    font-size: 1rem;
+    font-size: 0.75rem;
     font-weight: 600;
-    background-color: #BAE8E8;
+  }
+  .nav-bar__list .nav-bar #nav-bar__name {
+    display: flex;
+    justify-self: left;
   }
   .nav-bar button {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: 1px solid #07072b;
+    border: 1px solid #272643;
     border-radius: 7px;
-    width: 7rem;
-    height: 2rem;
-    font-size: 1rem;
-    background-color: #FDFDFD;
-    color: #07072b;
+    width: 6rem;
+    height: 1.2rem;
+    font-size: 0.75rem;
+    background-color: #BAE8E8;
+    color: #272643;
     font-family: "Poppins", sans-serif;
   }
   .nav-bar li {
@@ -290,7 +292,7 @@ nav {
   }
   .nav-bar a, .nav-bar a:visited, .nav-bar a:active {
     text-decoration: none;
-    color: #07072b;
+    color: #272643;
   }
   .header {
     width: 100%;
@@ -313,7 +315,7 @@ nav {
   .large-heading__image {
     display: block;
     width: 50%;
-    border: #000000;
+    border: #272643;
   }
   .about-me {
     width: 100%;

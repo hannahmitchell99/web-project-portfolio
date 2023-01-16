@@ -5,7 +5,7 @@ $font-paragraphs: 'Manrope', sans-serif;
 $light-blue: rgb(227,246,245);
 $blue-background:#BAE8E8;
 $white:#FDFDFD;
-$dark-navy:#07072b;
+$dark-navy:#272643;
 *{
   margin: 0;
   padding: 0;
@@ -29,7 +29,7 @@ nav{
   height: 15%;
 
   &__intro {
-    color: black;
+    color: $dark-navy;
     font-weight: 600;
     font-size: 1.5rem;
     line-height: 1.6rem;
@@ -50,7 +50,7 @@ nav{
   }
 
   &__text:hover{
-    text-decoration: underline 0.3rem $light-blue;
+    text-decoration: underline 0.3rem $blue-background;
   }
 
   &__image{
@@ -81,7 +81,7 @@ nav{
 
   &__image {
     grid-area: image;
-    border-radius: 2px;
+    border-radius: 3px;
     width: 18.7rem;
   }
 
@@ -232,7 +232,7 @@ nav{
     height:3rem;
     grid-area: button1;
     background: $white;
-    border: 1px solid #000000;
+    border: 1px solid $dark-navy;
     border-radius: 7px;
   }
   &__button--preview{
@@ -243,7 +243,7 @@ nav{
     height:3rem;
     grid-area: button2;
     background: rgb(199, 230, 241);
-    border: 1px solid #000000;
+    border: 1px solid $dark-navy;
     border-radius: 7px;
   }
 }
@@ -254,7 +254,7 @@ nav{
   margin:0;
   width:100%;
   height:10rem;
-  background-color: $blue-background;
+  background-color: $dark-navy;
   color: $white;
   text-align: center;
 
@@ -264,9 +264,9 @@ nav{
     width:7rem;
     height:2rem;
     font-size: 1rem;
-    background-color: $white;
+    background-color: $blue-background;
     color: $dark-navy;
-    border:1px solid black;
+    border:1px solid $white;
     border-radius: 7px;
   }
 
@@ -288,16 +288,19 @@ nav{
     justify-content: center;
     height: 3.5rem;
     width: 105.2%;
+    
 
     &__list{
       height:100%;
       display: flex;
       justify-content: space-around;
-      align-items: center;
       list-style-type: none;
-      font-size: 1rem;
+      font-size: 0.75rem;
       font-weight: 600;
-      background-color: $blue-background;
+      .nav-bar #nav-bar__name{
+        display: flex;
+        justify-self:left;
+      }
     }
     button{
       display: flex;
@@ -306,10 +309,10 @@ nav{
       align-items: center;
       border: 1px solid $dark-navy;
       border-radius: 7px;
-      width:7rem;
-      height:2rem;
-      font-size: 1rem;
-      background-color: $white;
+      width:6rem;
+      height:1.2rem;
+      font-size: 0.75rem;
+      background-color: $blue-background;
       color: $dark-navy;
       font-family: $font-headings;
     }
@@ -343,9 +346,9 @@ nav{
     }
     
     &__image{
-      display: block;
+      display:block;
       width: 50%;
-      border: #000000;
+      border: $dark-navy;
     }
   }
   .about-me{
