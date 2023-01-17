@@ -1,5 +1,7 @@
 # web-project-portfolio
 
+(find the project on github pages here: https://hannahmitchell99.github.io/web-project-portfolio/)
+
 This web project was designed to present a portfolio of my various projects, while using my newfound skill of SCSS to hone my website to its most aesthetically pleasing self!
 
 Beyond its original purpose, this project also served as a consolidation of my skills in CSS, SCSS, HTML and BEM naming conventions.
@@ -40,3 +42,33 @@ I split all elements into their various groups according to the mobile design. I
 - I then split up my SCSS code into partials to enhance readability.
 
 *Special thanks to my coach, Rob Hooper, for guiding me in my layout teething problems.*
+
+**Here are some pictures of my project:**
+
+*Desktop:*
+![Screenshot (3)](https://user-images.githubusercontent.com/119801701/212952055-65421770-6753-4639-81d4-b1ef675fd927.png)
+
+![Screenshot (4)](https://user-images.githubusercontent.com/119801701/212952136-7e598789-7643-44a2-a64d-060ff4fa5983.png)
+
+![Screenshot (5)](https://user-images.githubusercontent.com/119801701/212952211-b04419ed-0429-4509-aa89-95fb42372837.png)
+
+![Screenshot (6)](https://user-images.githubusercontent.com/119801701/212952249-136b463c-e5ca-4d52-a61e-c61a43cd123b.png)
+
+![Screenshot (7)](https://user-images.githubusercontent.com/119801701/212952279-6f1f34c2-c872-4eda-a488-819ac1365d24.png)
+
+*Mobile:*
+
+![Screenshot (8)](https://user-images.githubusercontent.com/119801701/212953381-e06ae4b3-6ca3-41c1-95d3-26c158058d16.png)
+
+![Screenshot (9)](https://user-images.githubusercontent.com/119801701/212953411-2e91c294-4915-4da4-80dd-0021fe43347a.png)
+
+![Screenshot (10)](https://user-images.githubusercontent.com/119801701/212953458-91ae9fcf-1ac7-4c8e-b508-61577ad81efc.png)
+
+![Screenshot (11)](https://user-images.githubusercontent.com/119801701/212953504-9719fb5c-4f20-4d36-9293-f68b68323803.png)
+
+![Screenshot (12)](https://user-images.githubusercontent.com/119801701/212953542-9e656d2d-6d45-47d6-833a-57f260caadbb.png)
+
+![Screenshot (13)](https://user-images.githubusercontent.com/119801701/212953575-d9d39a58-cddf-438c-aa3d-830d6d359502.png)
+
+
+
