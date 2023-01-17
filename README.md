@@ -7,9 +7,6 @@ Beyond its original purpose, this project also served as a consolidation of my s
 While I’ve had limited use of these in the past, it really only began to “click” for me as I finished week 1 of my _nology training and as I applied this throughout the project.
 
 That being said, how I originally structured and planned the project became super important for me to be able to approach the task with confidence.
-While I’ve had limited use of these in the past, it really only began to “click” for me as I finished week 1 of my _nology training and as I applied this throughout the project.
-
-That being said, how I originally structured and planned the project became super important for me to be able to approach the task with confidence.
 
 **Here were my priorities within the project:**
 
