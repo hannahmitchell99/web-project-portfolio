@@ -1,5 +1,7 @@
 # web-project-portfolio
 
+(find the project on github pages here: https://hannahmitchell99.github.io/web-project-portfolio/)
+
 This web project was designed to present a portfolio of my various projects, while using my newfound skill of SCSS to hone my website to its most aesthetically pleasing self!
 
 Beyond its original purpose, this project also served as a consolidation of my skills in CSS, SCSS, HTML and BEM naming conventions.
