@@ -41,7 +41,10 @@ I split all elements into their various groups according to the mobile design. I
 - I found some new fonts, found some cohesive colors that went into variables, and tried to make it look a little prettier.
 - I then split up my SCSS code into partials to enhance readability.
 
-*Special thanks to my coach, Rob Hooper, for guiding me in my layout teething problems.*
+**Lighthouse Scores **
+
+![Screenshot (14)](https://user-images.githubusercontent.com/119801701/212958957-0b1b5f25-f64b-47b6-bcad-c5b714b21261.png)
+
 
 **Here are some pictures of my project:**
 
@@ -72,3 +75,4 @@ I split all elements into their various groups according to the mobile design. I
 
 
 
+*Special thanks to my coach, Rob Hooper, for guiding me in my layout teething problems.*
