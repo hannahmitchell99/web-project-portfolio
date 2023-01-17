@@ -1,0 +1,32 @@
+.header {
+  width: 90%;
+  height: 15%;
+
+  &__intro {
+    color: $dark-navy;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+  }
+}
+.large-heading {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  height: 29rem;
+
+  &__text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 120%;
+  }
+
+  &__text:hover {
+    text-decoration: underline 0.3rem $blue-background;
+  }
+
+  &__image {
+    display: none;
+  }
+}

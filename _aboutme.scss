@@ -1,0 +1,36 @@
+.about-me {
+  width: 90%;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-gap: 1.5rem;
+  grid-template-areas:
+    "heading heading heading heading"
+    "image image image image"
+    "p p p p";
+
+  &__heading {
+    grid-area: heading;
+    font-weight: 600;
+    font-size: 1.75rem;
+    line-height: 39px;
+    text-align: center;
+  }
+
+  &__image {
+    grid-area: image;
+    border-radius: 5px;
+    width: 18.7rem;
+  }
+
+  &__description {
+    font-family: $font-paragraphs;
+    grid-area: p;
+    font-weight: 400;
+    font-size: 1.12rem;
+    line-height: 180%;
+    text-align: justify;
+  }
+}
