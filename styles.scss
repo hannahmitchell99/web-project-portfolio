@@ -7,9 +7,9 @@ $blue-background: #bae8e8;
 $white: #fdfdfd;
 $dark-navy: #272643;
 
-@import "/introduction.scss";
-@import "/aboutme.scss";
-@import "/technicalskills.scss";
-@import "/projects.scss";
-@import "/layout.scss";
-@import "/mediaquery.scss";
+@import "partials/introduction";
+@import "partials/aboutme.scss";
+@import "partials/technicalskills.scss";
+@import "partials/projects.scss";
+@import "partials/layout.scss";
+@import "partials/mediaquery.scss";

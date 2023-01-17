@@ -1,25 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Poppins&display=swap");
-
- * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-  margin-top: 4rem;
-  margin-bottom: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: "Poppins", sans-serif;
-  color: #272643;
-  background-color: #FDFDFD;
-}
-
-nav {
-  display: none;
-}
-
 .header {
   width: 90%;
   height: 15%;
@@ -44,8 +23,8 @@ nav {
   line-height: 120%;
 }
 .large-heading__text:hover {
-  -webkit-text-decoration: underline 0.3rem #BAE8E8;
-          text-decoration: underline 0.3rem #BAE8E8;
+  -webkit-text-decoration: underline 0.3rem #bae8e8;
+          text-decoration: underline 0.3rem #bae8e8;
 }
 .large-heading__image {
   display: none;
@@ -208,7 +187,7 @@ nav {
   width: 7rem;
   height: 3rem;
   grid-area: button1;
-  background: #FDFDFD;
+  background: #fdfdfd;
   border: 1px solid #272643;
   border-radius: 7px;
 }
@@ -224,6 +203,27 @@ nav {
   border-radius: 7px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 4rem;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  color: #272643;
+  background-color: #fdfdfd;
+}
+
+nav {
+  display: none;
+}
+
 .footer {
   font-family: "Poppins", sans-serif;
   display: block;
@@ -231,7 +231,7 @@ nav {
   width: 100%;
   height: 10rem;
   background-color: #272643;
-  color: #FDFDFD;
+  color: #fdfdfd;
   text-align: center;
 }
 .footer__button {
@@ -240,9 +240,9 @@ nav {
   width: 7rem;
   height: 2rem;
   font-size: 1rem;
-  background-color: #BAE8E8;
+  background-color: #bae8e8;
   color: #272643;
-  border: 1px solid #FDFDFD;
+  border: 1px solid #fdfdfd;
   border-radius: 7px;
 }
 .footer__email {
@@ -283,14 +283,16 @@ nav {
     width: 6rem;
     height: 1.2rem;
     font-size: 0.75rem;
-    background-color: #BAE8E8;
+    background-color: #bae8e8;
     color: #272643;
     font-family: "Poppins", sans-serif;
   }
   .nav-bar li {
     display: inline;
   }
-  .nav-bar a, .nav-bar a:visited, .nav-bar a:active {
+  .nav-bar a,
+.nav-bar a:visited,
+.nav-bar a:active {
     text-decoration: none;
     color: #272643;
   }
