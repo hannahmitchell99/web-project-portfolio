@@ -23,8 +23,8 @@
   line-height: 120%;
 }
 .large-heading__text:hover {
-  -webkit-text-decoration: underline 0.3rem #bae8e8;
-          text-decoration: underline 0.3rem #bae8e8;
+  -webkit-text-decoration: underline 0.2rem #bae8e8;
+          text-decoration: underline 0.2rem #bae8e8;
 }
 .large-heading__image {
   display: none;
@@ -46,6 +46,10 @@
   font-size: 1.75rem;
   line-height: 39px;
   text-align: center;
+}
+.about-me__heading:hover {
+  -webkit-text-decoration: underline 0.2rem #bae8e8;
+          text-decoration: underline 0.2rem #bae8e8;
 }
 .about-me__image {
   grid-area: image;
@@ -76,6 +80,10 @@
   font-size: 1.75rem;
   line-height: 39px;
   text-align: center;
+}
+.technical-skills__heading:hover {
+  -webkit-text-decoration: underline 0.2rem #bae8e8;
+          text-decoration: underline 0.2rem #bae8e8;
 }
 .technical-skills__description {
   font-family: "Manrope", sans-serif;
@@ -127,6 +135,10 @@
   font-size: 1.75rem;
   line-height: 39px;
   text-align: center;
+}
+.project-intro__heading:hover {
+  -webkit-text-decoration: underline 0.2rem #bae8e8;
+          text-decoration: underline 0.2rem #bae8e8;
 }
 .project-intro__description {
   font-family: "Manrope", sans-serif;
