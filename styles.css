@@ -322,9 +322,9 @@ nav {
     margin-top: 2rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     gap: 2rem 2rem;
-    grid-template-areas: "intro intro intro" "large-heading large-heading large-heading";
+    grid-template-areas: "intro intro intro" "large-heading large-heading large-heading" "button button button";
     background-color: #F7FAFA;
   }
   .main-heading__header {
@@ -349,6 +349,22 @@ nav {
     display: flex;
     flex-direction: column;
     align-self: center;
+  }
+  .main-heading__redirect {
+    justify-self: center;
+    align-self: start;
+    grid-area: button;
+  }
+  .main-heading__redirect--text {
+    background-color: #BAE8E8;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #272643;
+    width: 120%;
+    height: 3.5rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 2px -2px #bae8e8;
   }
   .about-me {
     width: 100%;
