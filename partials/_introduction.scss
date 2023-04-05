@@ -1,32 +1,59 @@
-.header {
-  width: 90%;
-  height: 15%;
+.main-heading {
+  height: 30rem;
+  width: 80%;
+  margin-top: 2rem;
+  display: grid;
+  grid-gap: 20px 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    "intro intro intro"
+    "large-heading large-heading large-heading"
+    "button button button";
+  background-color: $light-blue-background;
 
-  &__intro {
+  &__header {
+    justify-self: center;
+    align-self: end;
+    grid-area: intro;
     color: $slate-gray;
-    font-weight: 600;
+    &__intro {
+      width: 100%;
+      margin-top: 2rem;
+      margin-bottom: 0;
+      width: 100%;
+    }
+  }
+
+  &__large-heading {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    grid-area: large-heading;
+    width: 75%;
     font-size: 1.5rem;
-    line-height: 1.6rem;
-  }
-}
-.large-heading {
-  width: 90%;
-  display: flex;
-  align-items: center;
-  height: 29rem;
-
-  &__text {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 3.5rem;
-    line-height: 120%;
+    text-align: center;
+    &__text {
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+    }
   }
 
-  &__text:hover {
-    text-decoration: underline 0.2rem $blue-background;
-  }
-
-  &__image {
-    display: none;
+  &__redirect {
+    display: flex;
+    justify-self: center;
+    grid-area: button;
+    &--text {
+      background-color: $aqua;
+      font-family: $font-paragraphs;
+      font-weight: 700;
+      font-size: 1rem;
+      color: $dark-navy;
+      width: 120%;
+      height: 3.5rem;
+      border-radius: 5px;
+      box-shadow: 0 4px 2px -2px $blue-background;
+    }
   }
 }
