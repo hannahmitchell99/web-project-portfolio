@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Poppins&display=swap");
 .main-heading {
   height: 30rem;
-  width: 80%;
+  width: 90%;
   margin-top: 2rem;
   display: grid;
   grid-gap: 20px 20px;
@@ -291,7 +291,11 @@ nav {
   font-size: 0.7rem;
 }
 
-@media screen and (min-width: 1200px) {
+#highlighter {
+  background: linear-gradient(180deg, rgba(255, 0, 0, 0) 65%, #bae8e8 65%);
+}
+
+@media screen and (min-width: 1024px) {
   body {
     margin: 2%;
     margin-bottom: 0;
@@ -339,7 +343,7 @@ nav {
     color: #272643;
   }
   .about-me {
-    width: 100%;
+    width: 90%;
     display: grid;
     grid-template-areas: "image heading heading" "image p p";
   }
@@ -354,7 +358,6 @@ nav {
   }
   .skills-container {
     scale: 75%;
-    width: 100%;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
   }
@@ -362,7 +365,7 @@ nav {
     width: 50%;
   }
   .project-container {
-    width: 100%;
+    width: 90%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;

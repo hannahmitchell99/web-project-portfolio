@@ -1,4 +1,4 @@
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
   body {
     margin: 2%;
     margin-bottom: 0;
@@ -51,7 +51,7 @@
   }
 
   .about-me {
-    width: 100%;
+    width: 90%;
     display: grid;
     grid-template-areas:
       "image heading heading"
@@ -70,7 +70,6 @@
 
   .skills-container {
     scale: 75%;
-    width: 100%;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
   }
@@ -80,7 +79,7 @@
   }
 
   .project-container {
-    width: 100%;
+    width: 90%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
