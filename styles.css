@@ -74,6 +74,7 @@
   grid-area: image;
   border-radius: 5px;
   width: 18.7rem;
+  box-shadow: 5px 10px rgb(227, 246, 245);
 }
 .about-me__description {
   font-family: "Manrope", sans-serif;
@@ -187,6 +188,7 @@ a, a:active, a:visited {
   background-size: contain;
   overflow: hidden;
   justify-self: center;
+  box-shadow: 5px 10px rgb(227, 246, 245);
 }
 .project-card figure img {
   height: 300px;
