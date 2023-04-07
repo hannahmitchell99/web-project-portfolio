@@ -78,6 +78,7 @@
 }
 .about-me__description {
   font-family: "Manrope", sans-serif;
+  color: #8C9CB1;
   grid-area: p;
   font-weight: 400;
   font-size: 1.12rem;
@@ -103,6 +104,7 @@
 }
 .technical-skills__description {
   font-family: "Manrope", sans-serif;
+  color: #8C9CB1;
   grid-area: p;
   font-style: normal;
   font-weight: 400;
@@ -158,6 +160,7 @@ a, a:active, a:visited {
 }
 .project-intro__description {
   font-family: "Manrope", sans-serif;
+  color: #8C9CB1;
   grid-area: p;
   font-style: normal;
   font-weight: 400;
@@ -206,6 +209,7 @@ a, a:active, a:visited {
 }
 .project-card__description {
   font-family: "Manrope", sans-serif;
+  color: #8C9CB1;
   width: 90%;
   grid-area: d;
 }

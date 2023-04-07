@@ -23,6 +23,7 @@ a, a:active, a:visited {
 
   &__description {
     font-family: $font-paragraphs;
+    color: $slate-gray;
     grid-area: p;
     font-style: normal;
     font-weight: 400;
@@ -82,6 +83,7 @@ a, a:active, a:visited {
 
   &__description {
     font-family: $font-paragraphs;
+    color: $slate-gray;
     width: 90%;
     grid-area: d;
   }
