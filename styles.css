@@ -42,7 +42,7 @@
   grid-area: button;
 }
 .main-heading__redirect--text {
-  background-color: #BAE8E8;
+  background-color: #a3e4e4;
   font-family: "Manrope", sans-serif;
   font-weight: 700;
   font-size: 1rem;
@@ -198,9 +198,11 @@ a, a:active, a:visited {
   width: 300px;
 }
 .project-card__project-type-heading {
+  margin-top: 10%;
+  color: #a3e4e4;
   width: 90%;
   grid-area: type;
-  font-size: 1.25rem;
+  font-size: 1rem;
   text-align: start;
 }
 .project-card__client-project-heading {

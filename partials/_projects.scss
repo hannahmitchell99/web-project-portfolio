@@ -70,9 +70,11 @@ a, a:active, a:visited {
   }
 
   &__project-type-heading {
+    margin-top: 10%;
+    color: $aqua;
     width: 90%;
     grid-area: type;
-    font-size: 1.25rem;
+    font-size: 1rem;
     text-align: start;
   }
 
