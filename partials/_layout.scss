@@ -29,9 +29,10 @@ nav {
 
   &__button {
     font-family: "Poppins", sans-serif;
-    margin: 1rem;
-    width: 7rem;
-    height: 2rem;
+    margin-left: 50px;
+    width: auto;
+    height: auto;
+    padding: 10px;
     font-size: 1rem;
     background-color: $blue-background;
     color: $dark-navy;
@@ -40,7 +41,7 @@ nav {
   }
 
   &__email {
-    margin: 1rem;
+    margin-right: 50px;
     font-size: 0.7rem;
   }
 }

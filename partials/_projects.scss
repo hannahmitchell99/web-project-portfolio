@@ -30,6 +30,7 @@ a, a:active, a:visited {
     font-size: 1rem;
     line-height: 160%;
     text-align: center;
+    margin-bottom: 20px;
   }
 }
 
@@ -41,11 +42,12 @@ a, a:active, a:visited {
 }
 
 .project-card {
-  width: 100%;
-  padding: 1rem;
-  margin-bottom: 1.25rem;
+  width: 350px;
+  height: 600px;
+  padding: 20px;
+  margin-bottom: 50px;
   display: grid;
-  grid-gap: 0.5rem;
+  grid-gap: 5px;
   align-items: center;
   grid-template-areas:
     "image image image image"
@@ -54,13 +56,16 @@ a, a:active, a:visited {
     "d d d d "
     "button1 button1 button2 button2";
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  box-shadow: 5px 10px $light-blue;
+  border: 1px solid $blue-background;
+  border-radius: 10px;
 
   figure {
     grid-area: image;
     background-size: contain;
     overflow: hidden;
     justify-self: center;
-    box-shadow: 5px 10px $light-blue;
+    
     
   }
 
@@ -70,7 +75,6 @@ a, a:active, a:visited {
   }
 
   &__project-type-heading {
-    margin-top: 10%;
     color: $aqua;
     width: 90%;
     grid-area: type;
@@ -94,8 +98,10 @@ a, a:active, a:visited {
     font-size: 1rem;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
-    width: 7rem;
-    height: 3rem;
+    width: 120px;
+    height: 50px;
+    padding: 0px 20px;
+    margin: 10px;
     grid-area: button1;
     background: $white;
     border: 1px solid $dark-navy;
@@ -108,14 +114,16 @@ a, a:active, a:visited {
     font-size: 1rem;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
-    width: 7rem;
-    height: 3rem;
+    width: 120px;
+    height: 50px;
+    padding: 0px 20px;
     grid-area: button2;
     background: rgb(199, 230, 241);
     border: 1px solid $dark-navy;
     border-radius: 7px;
     justify-self: center;
     align-self: center;
+    margin: 10px;
   }
 }
 
